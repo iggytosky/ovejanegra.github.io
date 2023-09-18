@@ -1,0 +1,161 @@
+
+
+
+nav {
+    background-color: #ffffff; 
+    color: #ffffff; 
+    padding: 20px; 
+}
+
+nav {
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+}
+
+.barra-navegacion {
+    background-color: #3498db; 
+    padding: 10px 0; 
+}
+
+ul {
+    list-style-type: none; 
+    display: flex; 
+}
+
+li {
+    margin-right: 20px; 
+}
+
+
+.logo img {
+    width: 100px; 
+    height: auto; 
+}
+
+.navbar-image {
+    max-height: 100px; 
+    margin-left: 1px; 
+	margin-right: 200px;
+
+
+
+
+}
+
+
+
+.portafolio {
+	max-width: 1200px;
+	margin:0 auto;
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-template-rows: 250px;
+	grid-gap: 20px;
+	padding: 100px 0;
+
+}
+
+.box img {
+
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+
+}
+
+.box:nth-child(1) {
+	grid-column-start: span 2;
+}
+
+.box:nth-child(4) {
+	grid-column-start: span 2;
+}
+
+
+
+body {
+    background-color: rgb(219, 229, 233);
+}
+
+
+
+footer {
+    background-color: #333; 
+    color: #fff; 
+    text-align: center;
+    padding: 20px 0; 
+}
+
+
+footer a {
+    color: #fff; 
+    text-decoration: none; 
+}
+
+
+footer a:hover {
+    text-decoration: underline; 
+}
+ 
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+	display: flex;
+    justify-content: center; 
+    align-items: center; 
+}
+
+.redes-sociales {
+    margin-top: 10px;
+}
+
+.icono-twitter,
+.icono-instagram,
+.icono-whatsapp {
+    font-size: 30px;
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+	vertical-align: middle; 
+}
+
+
+.icono-twitter:hover,
+.icono-instagram:hover,
+.icono-whatsapp:hover {
+    color: #00acee; 
+}
+
+.icono-instagram:hover {
+    color: #e4405f; 
+}
+
+.icono-whatsapp:hover {
+    color: #25d366; 
+}
+
+@media(max-width:991px) {
+	.portafolio {
+		padding: 30px;
+		grid-template-columns: repeat(1, 1fr);
+	}
+
+	.box:nth-child(1) {
+		grid-column-start:   1;
+	}
+
+
+	.box:nth-child(4)  {
+		grid-column-start:  span 1;
+	}
+}
+
+
+
+	
+
+
